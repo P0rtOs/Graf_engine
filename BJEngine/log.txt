@@ -1,0 +1,33 @@
+Log is create: 12/27/24 00:06:27.
+---------------------------------------
+
+00:06:27::279: *DEBUG:  wnd was created
+00:06:27::301: *DEBUG:  input was created
+00:06:36::9004: *DEBUG:  Camera created
+00:06:36::9078: *DEBUG:  ImGui was inited!
+00:06:36::9079: *DEBUG:  LightMananger inited!
+00:06:36::9079: *DEBUG:  render was created
+00:06:43::15703: *ERROR:  ERROR IN CREATING TEXTURE
+00:06:43::15703: *ERROR:  ERROR IN CREATING TEXTURE
+00:06:44::16422: *ERROR:  ERROR IN CREATING TEXTURE
+00:06:44::16422: *ERROR:  ERROR IN CREATING TEXTURE
+00:06:46::18824: *DEBUG:  Create light!
+00:06:46::18824: *DEBUG:  Create light!
+00:06:46::18825: *DEBUG:  Create light!
+00:06:46::18825: *DEBUG:  Create light!
+00:06:46::18825: *DEBUG:  Create light!
+00:10:41::253801: *DEBUG:  Camera was closed
+00:10:41::253801: *DEBUG:  Shader was closed
+00:10:41::253801: *DEBUG:  Shader was closed
+00:10:41::253801: *DEBUG:  Shader was closed
+00:10:41::253801: *DEBUG:  Shader was closed
+00:10:41::253801: *DEBUG:  Shader was closed
+00:10:41::253801: *DEBUG:  Shader was closed
+00:10:41::253801: *DEBUG:  Shader was closed
+00:10:41::253801: *DEBUG:  Shader was closed
+00:10:41::253801: *DEBUG:  Render was closed
+00:10:41::253801: *DEBUG:  Close input
+00:10:41::253801: *DEBUG:  Destroing wnd
+
+---------------------------------------
+Logs end: 12/27/24 00:10:41.

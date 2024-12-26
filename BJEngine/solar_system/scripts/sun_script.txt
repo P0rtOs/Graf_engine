@@ -1,0 +1,4 @@
+op once scale a 60
+op loop rotate x 0.004
+op loop rotate z 0.004
+ends

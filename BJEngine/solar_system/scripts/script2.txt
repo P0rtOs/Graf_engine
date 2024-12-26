@@ -1,0 +1,3 @@
+op once scale a 100.0
+op loop rotate z 2.0
+ends

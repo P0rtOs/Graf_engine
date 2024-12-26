@@ -1,0 +1,30 @@
+reg radius_orbit 9000
+reg current_earth_x 0
+reg current_earth_z 0
+reg prev_earth_x radius_orbit
+reg prev_earth_z 0
+reg steps 360
+reg tmp 0
+reg angle 0
+reg cos_tmp 0
+reg sin_tmp 0
+reg delta_x 0
+reg delta_z 0
+op once scale a 0.40
+op once move x prev_earth_x
+op once move z prev_earth_z
+op loop rotate x 0.002
+op loop rotate y 0.001
+# tmp + 0.005 loop
+# equ angle tmp + 0 loop
+# equ cos_tmp cos angle loop
+# equ sin_tmp sin angle loop
+# equ current_earth_x radius_orbit * cos_tmp loop
+# equ current_earth_z radius_orbit * sin_tmp loop
+# equ delta_x current_earth_x - prev_earth_x loop
+# equ delta_z current_earth_z - prev_earth_z loop
+# equ prev_earth_x current_earth_x + 0 loop
+# equ prev_earth_z current_earth_z + 0 loop
+op loop move x delta_x
+op loop move z delta_z
+ends
